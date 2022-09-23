@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<!-- check to make sure all links are working -->
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -11,24 +10,25 @@
 <body>
 
 <!-- Header Section -->
-
-    <section class="header">
+<!-- need semantic HTML tag instead of nav- nav lines them up on
+    the left of the page in vertical rows. -->
+    <header>
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <div>
+        <nav>
             <ul>
                 <li><a href="#search-engine-optimization">Search Engine Optimization</a></li>
                 <li><a href="#online-reputation-management">Online Reputation Management</a></li>
                 <li><a href="#social-media-marketing">Social Media Marketing</a></li>
             </ul>
-        </div>
-    </section>
+        </nav>
+    </header>
 
 <!-- Main Content Section -->
 
     <figure class="hero"></figure>
 
-    <section class="content">
-        <main class="search-engine-optimization">
+    <section class="mainContent">
+        <main id="search-engine-optimization" class="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" alt="Search Engine Optimization Image" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
@@ -54,21 +54,21 @@
 <!-- Side Content Section -->
 
     <section class="benefits">
-        <aside>
+        <aside class="benefit-lead">
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" alt="Lead Generation Image"/>
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
         </aside>
-        <aside>
+        <aside class="benefit-brand">
             <h3>Brand Awareness</h3>
             <img src="./assets/images/brand-awareness.png" alt="Brand Awareness Image"/>
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
         </aside>
-        <aside>
+        <aside class="benefit-cost">
             <h3>Cost Management</h3>
             <img src="./assets/images/cost-management.png" alt="Cost Management Image"/>
             <p>
@@ -79,7 +79,7 @@
 
 <!-- Footer -->
 
-    <footer class="footer">
+    <footer>
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.

@@ -7,6 +7,7 @@ Please visit our site:
 Here is a preview:
 
 "ENTER SCREENSHOT HERE"
+![Alt text](assets/images/SS.png?raw=true "Screenshot")
 
 ## Updated codebase in order to follow accessibility standards.
 
