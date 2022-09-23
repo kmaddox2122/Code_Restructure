@@ -1,8 +1,8 @@
-# ChallengeOne
+# Challenge_One
 
 #### Please visit our site:
 
-https://kmaddox2122.github.io/ChallengeOne/
+https://kmaddox2122.github.io/Challenge_One/
 
 #### Here is a preview:
 
