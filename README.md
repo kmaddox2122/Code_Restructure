@@ -1,8 +1,8 @@
-# Challenge_One
+# Code_Restructure
 
 #### Please visit our site:
 
-https://kmaddox2122.github.io/Challenge_One/
+https://kmaddox2122.github.io/Code_Restructure/
 
 #### Here is a preview:
 
